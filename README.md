@@ -12,6 +12,7 @@
 ###### -	Vise hvordan det er mulig å koble data
 ###### -	Identifisere overlapp tilknyttet spesifikke data
 ###### -	Identifisere manglende data
+###### -	Identifisere og synliggjøre semantiske utfordringer
 ###### -	Tydeliggjøre ansvar for dataene
 
 ###### I tillegg kan grunndataoversikten være et redskap for konsumenter. Den kan bidra til å skape forutsigbarhet rundt viktige data, samt senke terskelen for å ta i bruk data ved å øke tilliten til dataene og vise logiske sammenhenger og sammenkoblinger. 
