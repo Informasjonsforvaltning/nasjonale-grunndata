@@ -1,0 +1,63 @@
+include::locale/attributes.adoc[]
+= Nasjonale grunndata
+Digitaliseringsdirektoratet (Digdir) / The Norwegian Digitalisation Agency
+:doctype: book
+:docinfo: shared
+:icons: font
+:toc: left
+ifdef::backend-pdf[:toc: macro]
+:toc-title: Innholdsfortegnelse
+:toclevels: 4
+// :sectlinks:
+:sectanchors:
+:table-stripes: even
+:xrefstyle: short
+:title-logo-image: image:images/Digdir.png[alt="Digdir-logo", pdfwidth=30vw]
+
+image::images/Digdir.png[alt="Digdir-logo", width=30%, pdfwidth=30vw, link=https://digdir.no/]
+
+include::shared/download.adoc[]
+
+NOTE: *Innmelding av feil og mangler:* +
+Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn på https://github.com/Informasjonsforvaltning/nasjonale-grunndata/issues[Github Issues &#x29C9;, window="_blank", role="ext-link"]. Dersom du ikke allerede har bruker på Github kan du opprette bruker gratis.
+
+
+*Status*: Utkast +
+*Versjon*: x.x.x + (se <<Endringslogg>>)
+*Publisert*: +
+*Oppdatert*: +
+*Gjeldende versjon*:  +
+*Forrige versjon*: <ingen> +
+*Redaktørens utkast*:  +
+
+// include::Om_denne_versjonen.adoc[]
+
+toc::[]
+
+include::Om_nasjonale_grunndata.adoc[]
+
+include::Innledning.adoc[]
+
+include::TemaområdeOverordnet.adoc[]
+
+include::TemaområdeAdresse.adoc[]
+// inkl. alle temabaserte underkapitler
+
+include::TemaområdeArbeidsforhold.adoc[]
+// inkl. alle temabaserte underkapitler
+
+include::TemaområdeDataforvalter.adoc[]
+
+include::TemaområdeEiendom.adoc[]
+// inkl. alle temabaserte underkapitler
+
+include::TemaområdePerson.adoc[]
+// inkl. alle temabaserte underkapitler
+
+include::TemaområdeVirksomhet.adoc[]
+
+
+include::Endringslogg.adoc[]
+
+
+include::shared/stats.adoc[]

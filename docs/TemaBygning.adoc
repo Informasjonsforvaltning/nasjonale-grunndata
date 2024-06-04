@@ -1,0 +1,8 @@
+== Tema Bygning [[Bygning]]
+
+Modell som viser tema Bygning:
+
+[[img-ModellBygning]]
+.Bygning
+[link=images/ModellBygning.jpg]
+images::images/ModellBygning.jpg[alt="Bilde av klassediagram som viser Bygning"]

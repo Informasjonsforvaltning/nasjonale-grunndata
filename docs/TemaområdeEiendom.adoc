@@ -1,0 +1,13 @@
+== Temaområde Eiendom [[TemaområdeEiendom]]
+
+include::TemaEiendomOversikt.adoc[]
+
+include::TemaEierforhold.adoc[]
+
+include::TemaFastEiendom.adoc[]
+
+include::TemaBygning.adoc[]
+
+include::TemaMatrikkelenhet.adoc[]
+
+include::TemaBorettslagandel.adoc[]
