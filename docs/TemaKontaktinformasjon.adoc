@@ -1,4 +1,4 @@
-== Tema Kontaktinformasjon [[Kontaktinformasjon]]
+=== Tema Kontaktinformasjon [[Kontaktinformasjon]]
 
 Modell som viser tema Kontaktinformasjon:
 
