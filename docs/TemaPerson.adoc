@@ -1,0 +1,8 @@
+=== Tema Person [[TemaPerson]]
+
+Modell som viser tema Person:
+
+[[img-ModellPerson]]
+.Person
+[link=images/ModellPerson.jpg]
+image::images/ModellPerson.jpg[alt="Bilde av klassediagram som viser Person"]

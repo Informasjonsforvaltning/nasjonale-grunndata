@@ -9,6 +9,7 @@ Oversikten er et redskap for Nasjonal grunndatakoordinator i forbindelse med arb
 Nasjonale grunndata skal i løpet av 2024 piloteres gjennom case studier, og denne oversikten er et verktøy som grunndatakoordinatoren kan bruke for å ha oversikt over dataene på tvers av ulike aktører og domener.
 
 Oversikten skal brukes av grunndatakoordinatoren for å:
+
 * Vise logiske sammenhenger
 * Vise hvordan det er mulig å koble data
 * Identifisere overlapp tilknyttet spesifikke data

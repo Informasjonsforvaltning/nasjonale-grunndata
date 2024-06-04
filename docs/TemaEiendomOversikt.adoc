@@ -5,4 +5,4 @@ Modell som viser tema Oversikt eiendom:
 [[img-ModellEiendomOversikt]]
 .Oversikt eiendom
 [link=images/ModellEiendomOversikt.jpg]
-images::images/ModellEiendomOversikt.jpg[alt="Bilde av klassediagram som viser Oversikt eiendom"]
+image::images/ModellEiendomOversikt.jpg[alt="Bilde av klassediagram som viser Oversikt eiendom"]

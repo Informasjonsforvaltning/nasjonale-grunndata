@@ -5,4 +5,4 @@ Modell som viser tema Matrikkelenhet:
 [[img-ModellMatrikkelenhet]]
 .Matrikkelenhet
 [link=images/ModellMatrikkelenhet.jpg]
-images::images/ModellMatrikkelenhet.jpg[alt="Bilde av klassediagram som viser Matrikkelenhet"]
+image::images/ModellMatrikkelenhet.jpg[alt="Bilde av klassediagram som viser Matrikkelenhet"]

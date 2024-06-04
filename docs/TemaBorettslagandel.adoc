@@ -5,4 +5,4 @@ Modell som viser tema Borettslagandel:
 [[img-ModellBorettslagandel]]
 .Borettslagandel
 [link=images/ModellBorettslagandel.jpg]
-images::images/ModellBorettslagandel.jpg[alt="Bilde av klassediagram som viser Borettslagandel"]
+image::images/ModellBorettslagandel.jpg[alt="Bilde av klassediagram som viser Borettslagandel"]

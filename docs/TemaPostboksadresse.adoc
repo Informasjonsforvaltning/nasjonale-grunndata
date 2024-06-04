@@ -5,4 +5,4 @@ Modell som viser tema Postboksadresse:
 [[img-ModellPostboksadresse]]
 .Postboksadresse
 [link=images/ModellPostboksadresse.jpg]
-images::images/ModellPostboksadresse.jpg[alt="Bilde av klassediagram som viser Postboksadresse"]
+image::images/ModellPostboksadresse.jpg[alt="Bilde av klassediagram som viser Postboksadresse"]

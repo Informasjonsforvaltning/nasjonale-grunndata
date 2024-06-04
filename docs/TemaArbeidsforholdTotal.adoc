@@ -5,4 +5,4 @@ Modell som viser tema Arbeidsforhold total:
 [[img-ModellArbeidsforholdTotal]]
 .Arbeidsforhold total
 [link=images/ModellArbeidsforholdTotal.jpg]
-images::images/ModellArbeidsforholdTotal.jpg[alt="Bilde av klassediagram som viser Arbeidsforhold total"]
+image::images/ModellArbeidsforholdTotal.jpg[alt="Bilde av klassediagram som viser Arbeidsforhold total"]

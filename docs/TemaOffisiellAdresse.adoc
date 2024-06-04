@@ -5,4 +5,4 @@ Modell som viser tema Offisiell adresse:
 [[img-ModellOffisiellAdresse]]
 .Offisiell adresse
 [link=images/ModellOffisiellAdresse.jpg]
-images::images/ModellOffisiellAdresse.jpg[alt="Bilde av klassediagram som viser Offisiell adresse"]
+image::images/ModellOffisiellAdresse.jpg[alt="Bilde av klassediagram som viser Offisiell adresse"]
