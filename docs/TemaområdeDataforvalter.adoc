@@ -1,0 +1,8 @@
+== Temaområde Dataforvalter [[Dataforvalter]]
+
+Modell som viser temaområdet Dataforvalter
+
+[[img-ModellDataforvalter]]
+.Dataforvalter
+[link=images/ModellDataforvalter.jpg]
+images::images/ModellDataforvalter.jpg[alt="Bilde av diagram som viser et utvalg av dataforvaltere"]

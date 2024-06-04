@@ -1,0 +1,8 @@
+== Tema Kontaktinformasjon [[Kontaktinformasjon]]
+
+Modell som viser tema Kontaktinformasjon:
+
+[[img-ModellKontaktinformasjon]]
+.Kontaktinformasjon
+[link=images/ModellKontaktinformasjon.jpg]
+images::images/ModellKontaktinformasjon.jpg[alt="Bilde av klassediagram som viser Kontaktinformasjon til person"]

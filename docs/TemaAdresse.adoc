@@ -1,0 +1,8 @@
+=== Tema Adresse [[TemaAdresse]]
+
+Modell som viser tema Adresse:
+
+[[img-ModellAdresse]]
+.Adresse
+[link=images/ModellAdresse.jpg]
+images::images/ModellAdresse.jpg[alt="Bilde av klassediagram som viser Adresse"]

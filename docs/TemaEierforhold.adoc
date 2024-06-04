@@ -1,0 +1,8 @@
+=== Tema Eierforhold [[Eierforhold]]
+
+Modell som viser tema Eierforhold:
+
+[[img-ModellEierforhold]]
+.Eierforhold
+[link=images/ModellEierforhold.jpg]
+images::images/ModellEierforhold.jpg[alt="Bilde av klassediagram som viser Eierforhold"]
