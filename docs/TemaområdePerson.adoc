@@ -1,10 +1,5 @@
 == Temaområde Person [[Person]]
 
-Modell som viser temaområdet Person:
-
-[[img-ModellPerson]]
-.Person
-[link=images/ModellPerson.jpg]
-images::images/ModellPerson.jpg[alt="Bilde av klassediagram som viser Person"]
+include::TemaPerson.adoc[]
 
 include::TemaKontaktinformasjon.adoc[]

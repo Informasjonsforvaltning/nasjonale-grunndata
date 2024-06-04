@@ -5,4 +5,4 @@ Modell som viser tema Permisjon og permitering:
 [[img-ModellPermisjonOgPermitering]]
 .Permisjon og permitering
 [link=images/ModellPermisjonOgPermitering.jpg]
-images::images/ModellPermisjonOgPermitering.jpg[alt="Bilde av klassediagram som viser Permisjon og permitering"]
+image::images/ModellPermisjonOgPermitering.jpg[alt="Bilde av klassediagram som viser Permisjon og permitering"]

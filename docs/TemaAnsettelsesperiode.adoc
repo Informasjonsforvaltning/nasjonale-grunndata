@@ -5,4 +5,4 @@ Modell som viser tema Ansettelsesperiode:
 [[img-ModellAnsettelsesperiode]]
 .Ansettelsesperiode
 [link=images/ModellAnsettelsesperiode.jpg]
-images::images/ModellAnsettelsesperiode.jpg[alt="Bilde av klassediagram som viser Ansettelsesperiode"]
+image::images/ModellAnsettelsesperiode.jpg[alt="Bilde av klassediagram som viser Ansettelsesperiode"]

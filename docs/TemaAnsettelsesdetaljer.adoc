@@ -5,4 +5,4 @@ Modell som viser tema Ansettelsesdetaljer:
 [[img-ModellAnsettelsesdetaljer]]
 .Ansettelsesdetaljer
 [link=images/ModellAnsettelsesdetaljer.jpg]
-images::images/ModellAnsettelsesdetaljer.jpg[alt="Bilde av klassediagram som viser Ansettelsesdetaljer"]
+image::images/ModellAnsettelsesdetaljer.jpg[alt="Bilde av klassediagram som viser Ansettelsesdetaljer"]

@@ -5,4 +5,4 @@ Modell som viser tema Fast eiendom:
 [[img-ModellFastEiendom]]
 .Fast eiendom
 [link=images/ModellFastEiendom.jpg]
-images::images/ModellFastEiendom.jpg[alt="Bilde av klassediagram som viser Fast eiendom"]
+image::images/ModellFastEiendom.jpg[alt="Bilde av klassediagram som viser Fast eiendom"]
