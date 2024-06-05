@@ -1,7 +1,5 @@
 === Tema Timer for timelønnet [[TimerForTimelønnet]]
 
-Modell som viser tema Timer for timelønnet:
-
 [[img-ModellTimerForTimelønnet]]
 .Timer for timelønnet
 [link=images/ModellTimerForTimelønnet.jpg]

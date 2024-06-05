@@ -1,7 +1,5 @@
 == Temaområde Dataforvalter [[Dataforvalter]]
 
-Modell som viser temaområdet Dataforvalter
-
 [[img-ModellDataforvalter]]
 .Dataforvalter
 [link=images/ModellDataforvalter.jpg]

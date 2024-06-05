@@ -1,0 +1,6 @@
+=== Tema Nasjonal grunndataoversikt forenklet[[NasjonalGrunndataoversiktForenklet]]
+
+[[img-ModellNasjonalGrunndataoversiktForenklet]]
+.Nasjonal grunndataoversikt forenklet
+[link=images/ModellNasjonalGrunndataoversiktForenklet.png]
+image::images/ModellNasjonalGrunndataoversiktForenklet.png[alt="Bilde av modell som viser Nasjonal grunndataoversikt forenklet"]

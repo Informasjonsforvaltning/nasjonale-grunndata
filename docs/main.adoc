@@ -39,14 +39,15 @@ include::Om_nasjonale_grunndata.adoc[]
 include::Innledning.adoc[]
 
 include::TemaområdeOverordnet.adoc[]
+// inkl. alle temabaserte underkapitler
+
+include::TemaområdeDataforvalter.adoc[]
 
 include::TemaområdeAdresse.adoc[]
 // inkl. alle temabaserte underkapitler
 
 include::TemaområdeArbeidsforhold.adoc[]
 // inkl. alle temabaserte underkapitler
-
-include::TemaområdeDataforvalter.adoc[]
 
 include::TemaområdeEiendom.adoc[]
 // inkl. alle temabaserte underkapitler

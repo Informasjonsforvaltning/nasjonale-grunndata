@@ -1,7 +1,5 @@
 === Tema Bygning [[Bygning]]
 
-Modell som viser tema Bygning:
-
 [[img-ModellBygning]]
 .Bygning
 [link=images/ModellBygning.jpg]

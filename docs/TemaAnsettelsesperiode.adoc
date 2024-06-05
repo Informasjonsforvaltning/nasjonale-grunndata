@@ -1,7 +1,5 @@
 === Tema Ansettelsesperiode [[Ansettelsesperiode]]
 
-Modell som viser tema Ansettelsesperiode:
-
 [[img-ModellAnsettelsesperiode]]
 .Ansettelsesperiode
 [link=images/ModellAnsettelsesperiode.jpg]

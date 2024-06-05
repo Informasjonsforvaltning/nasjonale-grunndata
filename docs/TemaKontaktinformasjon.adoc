@@ -1,7 +1,5 @@
 === Tema Kontaktinformasjon [[Kontaktinformasjon]]
 
-Modell som viser tema Kontaktinformasjon:
-
 [[img-ModellKontaktinformasjon]]
 .Kontaktinformasjon
 [link=images/ModellKontaktinformasjon.jpg]
