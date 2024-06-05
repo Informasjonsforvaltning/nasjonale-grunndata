@@ -1,7 +1,5 @@
 === Tema Postboksadresse [[Postboksadresse]]
 
-Modell som viser tema Postboksadresse:
-
 [[img-ModellPostboksadresse]]
 .Postboksadresse
 [link=images/ModellPostboksadresse.jpg]

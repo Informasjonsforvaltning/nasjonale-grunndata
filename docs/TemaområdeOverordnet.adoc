@@ -1,15 +1,7 @@
-== Temaområde Nasjonal grunndata overordnet [[NasjonalGrunndataOverordnet]]
+== Temaområde Nasjonale grunndata overordnet [[NasjonaleGrunndataOverordnet]]
 
-Modell som viser temaområder:
+include::TemaNasjonalGrunndataDiagramoversikt.adoc[]
 
-[[img-ModellNasjonalGrunndataDiagramoversikt]]
-.Nasjonal Grunndata diagramoversikt
-[link=images/ModellNasjonalGrunndataDiagramoversikt.jpg]
-image::images/ModellNasjonalGrunndataDiagramoversikt.jpg[alt="Bilde av diagram som viser Nasjonal Grunndata diagramoversikt"]
+include::TemaNasjonalGrunndataoversikt.adoc[]
 
-Modell som viser sammenheng mellom temaområder:
-
-[[img-ModellNasjonalGrunndataOversikt]]
-.Nasjonal Grunndataoversikt overordnet
-[link=images/ModellNasjonalGrunndataOversikt.jpg]
-image::images/ModellNasjonalGrunndataOversikt.jpg[alt="Bilde av klassediagram som viser Nasjonal Grunndataoversikt overordnet"]
+include::TemaNasjonalGrunndataoversiktForenklet.adoc[]

@@ -1,7 +1,5 @@
 === Tema Arbeidsforhold total [[ArbeidsforholdTotal]]
 
-Modell som viser tema Arbeidsforhold total:
-
 [[img-ModellArbeidsforholdTotal]]
 .Arbeidsforhold total
 [link=images/ModellArbeidsforholdTotal.jpg]

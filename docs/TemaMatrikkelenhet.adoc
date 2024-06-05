@@ -1,7 +1,5 @@
 === Tema Matrikkelenhet [[Matrikkelenhet]]
 
-Modell som viser tema Matrikkelenhet:
-
 [[img-ModellMatrikkelenhet]]
 .Matrikkelenhet
 [link=images/ModellMatrikkelenhet.jpg]

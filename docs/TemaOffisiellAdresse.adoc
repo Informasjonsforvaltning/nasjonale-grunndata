@@ -1,7 +1,5 @@
 === Tema Offisiell adresse [[OffisiellAdresse]]
 
-Modell som viser tema Offisiell adresse:
-
 [[img-ModellOffisiellAdresse]]
 .Offisiell adresse
 [link=images/ModellOffisiellAdresse.jpg]

@@ -1,7 +1,5 @@
 === Tema Ansettelsesdetaljer [[Ansettelsesdetaljer]]
 
-Modell som viser tema Ansettelsesdetaljer:
-
 [[img-ModellAnsettelsesdetaljer]]
 .Ansettelsesdetaljer
 [link=images/ModellAnsettelsesdetaljer.jpg]

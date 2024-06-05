@@ -1,7 +1,5 @@
 === Tema Adresse [[TemaAdresse]]
 
-Modell som viser tema Adresse:
-
 [[img-ModellAdresse]]
 .Adresse
 [link=images/ModellAdresse.jpg]

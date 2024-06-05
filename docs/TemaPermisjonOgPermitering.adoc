@@ -1,7 +1,5 @@
 === Tema Permisjon og permitering [[PermisjonOgPermitering]]
 
-Modell som viser tema Permisjon og permitering:
-
 [[img-ModellPermisjonOgPermitering]]
 .Permisjon og permitering
 [link=images/ModellPermisjonOgPermitering.jpg]

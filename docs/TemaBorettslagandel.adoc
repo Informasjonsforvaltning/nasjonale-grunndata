@@ -1,7 +1,5 @@
 === Tema Borettslagandel [[Borettslagandel]]
 
-Modell som viser tema Borettslagandel:
-
 [[img-ModellBorettslagandel]]
 .Borettslagandel
 [link=images/ModellBorettslagandel.jpg]
