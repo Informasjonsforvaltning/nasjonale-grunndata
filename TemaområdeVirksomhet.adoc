@@ -1,0 +1,6 @@
+== Temaområde Virksomhet [[Virksomhet]]
+
+[[img-ModellVirksomhet]]
+.Virksomhet
+[link=images/ModellVirksomhet.jpg]
+image::images/ModellVirksomhet.jpg[alt="Bilde av klassediagram som viser Virksomhet"]

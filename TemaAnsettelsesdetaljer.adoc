@@ -1,0 +1,6 @@
+=== Tema Ansettelsesdetaljer [[Ansettelsesdetaljer]]
+
+[[img-ModellAnsettelsesdetaljer]]
+.Ansettelsesdetaljer
+[link=images/ModellAnsettelsesdetaljer.jpg]
+image::images/ModellAnsettelsesdetaljer.jpg[alt="Bilde av klassediagram som viser Ansettelsesdetaljer"]

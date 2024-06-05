@@ -1,0 +1,6 @@
+=== Tema Permisjon og permitering [[PermisjonOgPermitering]]
+
+[[img-ModellPermisjonOgPermitering]]
+.Permisjon og permitering
+[link=images/ModellPermisjonOgPermitering.jpg]
+image::images/ModellPermisjonOgPermitering.jpg[alt="Bilde av klassediagram som viser Permisjon og permitering"]

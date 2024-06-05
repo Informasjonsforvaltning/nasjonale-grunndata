@@ -1,0 +1,6 @@
+=== Tema Nasjonal grunndata diagramoversikt [[NasjonalGrunndataDiagramoversikt]]
+
+[[img-ModellNasjonalGrunndataDiagramoversikt]]
+.Nasjonal grunndata diagramoversikt
+[link=images/ModellNasjonalGrunndataDiagramoversikt.jpg]
+image::images/ModellNasjonalGrunndataDiagramoversikt.jpg[alt="Bilde av diagram som viser Nasjonal grunndata diagramoversikt"]

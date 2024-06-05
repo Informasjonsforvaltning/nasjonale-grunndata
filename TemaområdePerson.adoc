@@ -1,0 +1,5 @@
+== Temaområde Person [[Person]]
+
+include::TemaPerson.adoc[]
+
+include::TemaKontaktinformasjon.adoc[]

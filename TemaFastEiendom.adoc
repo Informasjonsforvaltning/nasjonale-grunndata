@@ -1,0 +1,6 @@
+=== Tema Fast eiendom [[FastEiendom]]
+
+[[img-ModellFastEiendom]]
+.Fast eiendom
+[link=images/ModellFastEiendom.jpg]
+image::images/ModellFastEiendom.jpg[alt="Bilde av klassediagram som viser Fast eiendom"]

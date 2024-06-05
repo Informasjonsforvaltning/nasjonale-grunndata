@@ -1,0 +1,6 @@
+=== Tema Timer for timelønnet [[TimerForTimelønnet]]
+
+[[img-ModellTimerForTimelønnet]]
+.Timer for timelønnet
+[link=images/ModellTimerForTimelønnet.jpg]
+image::images/ModellTimerForTimelønnet.jpg[alt="Bilde av klassediagram som viser Timer for timelønnet"]

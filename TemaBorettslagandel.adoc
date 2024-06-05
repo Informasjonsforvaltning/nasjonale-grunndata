@@ -1,0 +1,6 @@
+=== Tema Borettslagandel [[Borettslagandel]]
+
+[[img-ModellBorettslagandel]]
+.Borettslagandel
+[link=images/ModellBorettslagandel.jpg]
+image::images/ModellBorettslagandel.jpg[alt="Bilde av klassediagram som viser Borettslagandel"]

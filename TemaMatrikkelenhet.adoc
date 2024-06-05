@@ -1,0 +1,6 @@
+=== Tema Matrikkelenhet [[Matrikkelenhet]]
+
+[[img-ModellMatrikkelenhet]]
+.Matrikkelenhet
+[link=images/ModellMatrikkelenhet.jpg]
+image::images/ModellMatrikkelenhet.jpg[alt="Bilde av klassediagram som viser Matrikkelenhet"]

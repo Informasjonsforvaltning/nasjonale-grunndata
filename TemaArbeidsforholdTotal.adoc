@@ -1,0 +1,6 @@
+=== Tema Arbeidsforhold total [[ArbeidsforholdTotal]]
+
+[[img-ModellArbeidsforholdTotal]]
+.Arbeidsforhold total
+[link=images/ModellArbeidsforholdTotal.jpg]
+image::images/ModellArbeidsforholdTotal.jpg[alt="Bilde av klassediagram som viser Arbeidsforhold total"]

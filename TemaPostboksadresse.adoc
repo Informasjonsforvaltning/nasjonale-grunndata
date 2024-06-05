@@ -1,0 +1,6 @@
+=== Tema Postboksadresse [[Postboksadresse]]
+
+[[img-ModellPostboksadresse]]
+.Postboksadresse
+[link=images/ModellPostboksadresse.jpg]
+image::images/ModellPostboksadresse.jpg[alt="Bilde av klassediagram som viser Postboksadresse"]

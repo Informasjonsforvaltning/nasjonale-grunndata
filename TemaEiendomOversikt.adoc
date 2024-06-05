@@ -1,0 +1,6 @@
+=== Tema Eiendom oversikt [[EiendomOversikt]]
+
+[[img-ModellEiendomOversikt]]
+.Eiendom oversikt
+[link=images/ModellEiendomOversikt.jpg]
+image::images/ModellEiendomOversikt.jpg[alt="Bilde av klassediagram som viser Eiendom oversikt"]

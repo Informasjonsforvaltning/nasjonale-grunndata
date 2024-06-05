@@ -1,0 +1,6 @@
+=== Tema Ansettelsesperiode [[Ansettelsesperiode]]
+
+[[img-ModellAnsettelsesperiode]]
+.Ansettelsesperiode
+[link=images/ModellAnsettelsesperiode.jpg]
+image::images/ModellAnsettelsesperiode.jpg[alt="Bilde av klassediagram som viser Ansettelsesperiode"]

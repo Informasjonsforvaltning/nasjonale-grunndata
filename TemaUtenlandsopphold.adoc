@@ -1,0 +1,6 @@
+=== Tema Utenlandsopphold [[Utenlandsopphold]]
+
+[[img-ModellUtenlandsopphold]]
+.Utenlandsopphold
+[link=images/ModellUtenlandsopphold.jpg]
+image::images/ModellUtenlandsopphold.jpg[alt="Bilde av klassediagram som viser Utenlandsopphold"]

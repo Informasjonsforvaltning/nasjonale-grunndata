@@ -1,0 +1,6 @@
+=== Tema Offisiell adresse [[OffisiellAdresse]]
+
+[[img-ModellOffisiellAdresse]]
+.Offisiell adresse
+[link=images/ModellOffisiellAdresse.jpg]
+image::images/ModellOffisiellAdresse.jpg[alt="Bilde av klassediagram som viser Offisiell adresse"]
