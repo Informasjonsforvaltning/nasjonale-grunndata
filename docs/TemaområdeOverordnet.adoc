@@ -2,6 +2,6 @@
 
 include::TemaNasjonalGrunndataDiagramoversikt.adoc[]
 
-include::TemaNasjonalGrunndataoversikt.adoc[]
+include::TemaNasjonalGrunndataOversikt.adoc[]
 
 include::TemaNasjonalGrunndataoversiktForenklet.adoc[]
