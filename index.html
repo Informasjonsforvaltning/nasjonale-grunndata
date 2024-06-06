@@ -435,6 +435,81 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Generate a nice TOC -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js"></script>
+<!-- We do not need the tocify CSS because the asciidoc CSS already provides most of what we neeed -->
+
+<style>
+.tocify-header {
+    font-style: italic;
+}
+
+.tocify-subheader {
+    font-style: normal;
+    font-size: 90%;
+}
+
+.tocify ul {
+    margin: 0;
+ }
+
+.tocify-focus {
+    color: #7a2518;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.tocify-focus > a {
+    color: #7a2518;
+}
+</style>
+
+<script type="text/javascript">
+    $(function () {
+        // Add a new container for the tocify toc into the existing toc so we can re-use its
+        // styling
+        $("#toc").append("<div id='generated-toc'></div>");
+        $("#generated-toc").tocify({
+            extendPage: true,
+            context: "#content",
+            highlightOnScroll: true,
+            hideEffect: "slideUp",
+            // Use the IDs that asciidoc already provides so that TOC links and intra-document
+            // links are the same. Anything else might confuse users when they create bookmarks.
+            hashGenerator: function(text, element) {
+                return $(element).attr("id");
+            },
+            // Smooth scrolling doesn't work properly if we use the asciidoc IDs
+            smoothScroll: false,
+            // Set to 'none' to use the tocify classes
+            theme: "none",
+            // Handle book (may contain h1) and article (only h2 deeper)
+            selectors: $( "#content" ).has( "h1" ).size() > 0 ? "h1,h2,h3,h4,h5" : "h2,h3,h4,h5",
+            ignoreSelector: ".discrete"
+        });
+
+        // Switch between static asciidoc toc and dynamic tocify toc based on browser size
+        // This is set to match the media selectors in the asciidoc CSS
+        // Without this, we keep the dynamic toc even if it is moved from the side to preamble
+        // position which will cause odd scrolling behavior
+        var handleTocOnResize = function() {
+            if ($(document).width() < 768) {
+                $("#generated-toc").hide();
+                $(".sectlevel0").show();
+                $(".sectlevel1").show();
+            }
+            else {
+                $("#generated-toc").show();
+                $(".sectlevel0").hide();
+                $(".sectlevel1").hide();
+            }
+        }
+
+        $(window).resize(handleTocOnResize);
+        handleTocOnResize();
+    });
+</script>
 </head>
 <body class="book toc2 toc-left">
 <div id="header">
@@ -454,6 +529,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#NasjonaleGrunndataOverordnet">Temaområde Nasjonale grunndata overordnet</a>
 <ul class="sectlevel2">
 <li><a href="#NasjonalGrunndataDiagramoversikt">Tema Nasjonal grunndata diagramoversikt</a></li>
+<li><a href="#NasjonalGrunndataoversikt">Tema Nasjonal grunndataoversikt</a></li>
 <li><a href="#_tema_nasjonal_grunndataoversikt_forenklet">Tema Nasjonal grunndataoversikt forenklet</a></li>
 </ul>
 </li>
@@ -606,8 +682,14 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </div>
 <div class="title">Figur 1. Nasjonal grunndata diagramoversikt</div>
 </div>
-<div class="paragraph">
-<p>Unresolved directive in TemaområdeOverordnet.adoc - include::TemaNasjonalGrunndataoversikt.adoc[]</p>
+</div>
+<div class="sect2">
+<h3 id="NasjonalGrunndataoversikt"><a class="anchor" href="#NasjonalGrunndataoversikt"></a>Tema Nasjonal grunndataoversikt</h3>
+<div id="img-ModellNasjonalGrunndataOversikt" class="imageblock">
+<div class="content">
+<a class="image" href="images/ModellNasjonalGrunndataOversikt.jpg"><img src="images/ModellNasjonalGrunndataOversikt.jpg" alt="Bilde av klassediagram som viser Nasjonal grunndataoversikt"></a>
+</div>
+<div class="title">Figur 2. Nasjonal grunndataoversikt</div>
 </div>
 </div>
 <div class="sect2">
@@ -616,7 +698,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellNasjonalGrunndataoversiktForenklet.png"><img src="images/ModellNasjonalGrunndataoversiktForenklet.png" alt="Bilde av modell som viser Nasjonal grunndataoversikt forenklet"></a>
 </div>
-<div class="title">Figur 2. Nasjonal grunndataoversikt forenklet</div>
+<div class="title">Figur 3. Nasjonal grunndataoversikt forenklet</div>
 </div>
 </div>
 </div>
@@ -628,7 +710,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellDataforvalter.jpg"><img src="images/ModellDataforvalter.jpg" alt="Bilde av diagram som viser et utvalg av dataforvaltere"></a>
 </div>
-<div class="title">Figur 3. Dataforvalter</div>
+<div class="title">Figur 4. Dataforvalter</div>
 </div>
 </div>
 </div>
@@ -641,7 +723,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellAdresse.jpg"><img src="images/ModellAdresse.jpg" alt="Bilde av klassediagram som viser Adresse"></a>
 </div>
-<div class="title">Figur 4. Adresse</div>
+<div class="title">Figur 5. Adresse</div>
 </div>
 </div>
 <div class="sect2">
@@ -650,7 +732,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellOffisiellAdresse.jpg"><img src="images/ModellOffisiellAdresse.jpg" alt="Bilde av klassediagram som viser Offisiell adresse"></a>
 </div>
-<div class="title">Figur 5. Offisiell adresse</div>
+<div class="title">Figur 6. Offisiell adresse</div>
 </div>
 </div>
 <div class="sect2">
@@ -659,7 +741,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellPostboksadresse.jpg"><img src="images/ModellPostboksadresse.jpg" alt="Bilde av klassediagram som viser Postboksadresse"></a>
 </div>
-<div class="title">Figur 6. Postboksadresse</div>
+<div class="title">Figur 7. Postboksadresse</div>
 </div>
 </div>
 </div>
@@ -673,7 +755,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellArbeidsforholdOversikt.jpg"><img src="images/ModellArbeidsforholdOversikt.jpg" alt="Bilde av klassediagram som viser Arbeidsforhold oversikt"></a>
 </div>
-<div class="title">Figur 7. Arbeidsforhold oversikt</div>
+<div class="title">Figur 8. Arbeidsforhold oversikt</div>
 </div>
 </div>
 <div class="sect2">
@@ -682,7 +764,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellArbeidsforholdTotal.jpg"><img src="images/ModellArbeidsforholdTotal.jpg" alt="Bilde av klassediagram som viser Arbeidsforhold total"></a>
 </div>
-<div class="title">Figur 8. Arbeidsforhold total</div>
+<div class="title">Figur 9. Arbeidsforhold total</div>
 </div>
 </div>
 <div class="sect2">
@@ -691,7 +773,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellAnsettelsesperiode.jpg"><img src="images/ModellAnsettelsesperiode.jpg" alt="Bilde av klassediagram som viser Ansettelsesperiode"></a>
 </div>
-<div class="title">Figur 9. Ansettelsesperiode</div>
+<div class="title">Figur 10. Ansettelsesperiode</div>
 </div>
 </div>
 <div class="sect2">
@@ -700,7 +782,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellAnsettelsesdetaljer.jpg"><img src="images/ModellAnsettelsesdetaljer.jpg" alt="Bilde av klassediagram som viser Ansettelsesdetaljer"></a>
 </div>
-<div class="title">Figur 10. Ansettelsesdetaljer</div>
+<div class="title">Figur 11. Ansettelsesdetaljer</div>
 </div>
 </div>
 <div class="sect2">
@@ -709,7 +791,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellTimerForTimelønnet.jpg"><img src="images/ModellTimerForTimelønnet.jpg" alt="Bilde av klassediagram som viser Timer for timelønnet"></a>
 </div>
-<div class="title">Figur 11. Timer for timelønnet</div>
+<div class="title">Figur 12. Timer for timelønnet</div>
 </div>
 </div>
 <div class="sect2">
@@ -718,7 +800,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellPermisjonOgPermitering.jpg"><img src="images/ModellPermisjonOgPermitering.jpg" alt="Bilde av klassediagram som viser Permisjon og permitering"></a>
 </div>
-<div class="title">Figur 12. Permisjon og permitering</div>
+<div class="title">Figur 13. Permisjon og permitering</div>
 </div>
 </div>
 <div class="sect2">
@@ -727,7 +809,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellUtenlandsopphold.jpg"><img src="images/ModellUtenlandsopphold.jpg" alt="Bilde av klassediagram som viser Utenlandsopphold"></a>
 </div>
-<div class="title">Figur 13. Utenlandsopphold</div>
+<div class="title">Figur 14. Utenlandsopphold</div>
 </div>
 </div>
 </div>
@@ -741,7 +823,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellEiendomOversikt.jpg"><img src="images/ModellEiendomOversikt.jpg" alt="Bilde av klassediagram som viser Eiendom oversikt"></a>
 </div>
-<div class="title">Figur 14. Eiendom oversikt</div>
+<div class="title">Figur 15. Eiendom oversikt</div>
 </div>
 </div>
 <div class="sect2">
@@ -750,7 +832,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellEierforhold.jpg"><img src="images/ModellEierforhold.jpg" alt="Bilde av klassediagram som viser Eierforhold"></a>
 </div>
-<div class="title">Figur 15. Eierforhold</div>
+<div class="title">Figur 16. Eierforhold</div>
 </div>
 </div>
 <div class="sect2">
@@ -759,7 +841,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellFastEiendom.jpg"><img src="images/ModellFastEiendom.jpg" alt="Bilde av klassediagram som viser Fast eiendom"></a>
 </div>
-<div class="title">Figur 16. Fast eiendom</div>
+<div class="title">Figur 17. Fast eiendom</div>
 </div>
 </div>
 <div class="sect2">
@@ -768,7 +850,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellBygning.jpg"><img src="images/ModellBygning.jpg" alt="Bilde av klassediagram som viser Bygning"></a>
 </div>
-<div class="title">Figur 17. Bygning</div>
+<div class="title">Figur 18. Bygning</div>
 </div>
 </div>
 <div class="sect2">
@@ -777,7 +859,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellMatrikkelenhet.jpg"><img src="images/ModellMatrikkelenhet.jpg" alt="Bilde av klassediagram som viser Matrikkelenhet"></a>
 </div>
-<div class="title">Figur 18. Matrikkelenhet</div>
+<div class="title">Figur 19. Matrikkelenhet</div>
 </div>
 </div>
 <div class="sect2">
@@ -786,7 +868,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellBorettslagandel.jpg"><img src="images/ModellBorettslagandel.jpg" alt="Bilde av klassediagram som viser Borettslagandel"></a>
 </div>
-<div class="title">Figur 19. Borettslagandel</div>
+<div class="title">Figur 20. Borettslagandel</div>
 </div>
 </div>
 </div>
@@ -800,7 +882,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellPerson.jpg"><img src="images/ModellPerson.jpg" alt="Bilde av klassediagram som viser Person"></a>
 </div>
-<div class="title">Figur 20. Person</div>
+<div class="title">Figur 21. Person</div>
 </div>
 </div>
 <div class="sect2">
@@ -809,7 +891,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellKontaktinformasjon.jpg"><img src="images/ModellKontaktinformasjon.jpg" alt="Bilde av klassediagram som viser Kontaktinformasjon til person"></a>
 </div>
-<div class="title">Figur 21. Kontaktinformasjon</div>
+<div class="title">Figur 22. Kontaktinformasjon</div>
 </div>
 </div>
 </div>
@@ -821,7 +903,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/ModellVirksomhet.jpg"><img src="images/ModellVirksomhet.jpg" alt="Bilde av klassediagram som viser Virksomhet"></a>
 </div>
-<div class="title">Figur 22. Virksomhet</div>
+<div class="title">Figur 23. Virksomhet</div>
 </div>
 </div>
 </div>
@@ -844,7 +926,7 @@ ga('send', 'pageview');
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2024-06-05 13:43:26 UTC
+Sist oppdatert 2024-06-06 07:27:03 UTC
 </div>
 </div>
 </body>

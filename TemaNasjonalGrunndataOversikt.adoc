@@ -1,6 +1,6 @@
 === Tema Nasjonal grunndataoversikt [[NasjonalGrunndataoversikt]]
 
-[[img-ModellNasjonalGrunndataoversikt]]
+[[img-ModellNasjonalGrunndataOversikt]]
 .Nasjonal grunndataoversikt
-[link=images/ModellNasjonalGrunndataoversikt.jpg]
-image::images/ModellNasjonalGrunndataoversikt.jpg[alt="Bilde av klassediagram som viser Nasjonal grunndataoversikt"]
+[link=images/ModellNasjonalGrunndataOversikt.jpg]
+image::images/ModellNasjonalGrunndataOversikt.jpg[alt="Bilde av klassediagram som viser Nasjonal grunndataoversikt"]
